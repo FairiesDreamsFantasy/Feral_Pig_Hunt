@@ -134,7 +134,7 @@ html, body { background: #000; color: #fff; font-family: 'Share Tech Mono', mono
  */
 (function () {
   console.log('[Feral Pig Hunt] Initializing client-side arcade engine runtime.');
-  if ('serviceWorker' in navigator) {
+  if ('serviceWorker' in navigator && (window.isSecureContext || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
     window.addEventListener('load', function () {
       navigator.serviceWorker
         .register('./SW.js')
@@ -144,8 +144,8 @@ html, body { background: #000; color: #fff; font-family: 'Share Tech Mono', mono
         .then(function (registration) {
           console.log('[ServiceWorker] Registration successful with scope:', registration.scope);
         })
-        .catch(function (error) {
-          console.log('[ServiceWorker] Registration notice:', error.message || error);
+        .catch(function () {
+          // Gracefully handle preview sandboxes or insecure contexts
         });
     });
   }
