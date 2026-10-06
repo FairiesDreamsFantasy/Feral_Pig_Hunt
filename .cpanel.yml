@@ -2,6 +2,11 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/fairiesd/public_html/Arcade/Feral_Pig_Hunt/
+    - echo "=== Feral Pig Hunt Deployment Start ==="
+    - echo "Deploy path: $DEPLOYPATH"
     - /bin/mkdir -p $DEPLOYPATH
+    - echo "Cleaning old files in deployment target..."
     - /bin/rm -rf $DEPLOYPATH/*
-    - /bin/cp -R Public/Feral_Pig_Hunt/* $DEPLOYPATH/ 2>/dev/null || /bin/cp -R public/Feral_Pig_Hunt/* $DEPLOYPATH/ 2>/dev/null || /bin/cp -R dist/* $DEPLOYPATH/
+    - echo "Copying compiled production bundle..."
+    - /bin/cp -R Public/Feral_Pig_Hunt/* $DEPLOYPATH/ || /bin/cp -R public/Feral_Pig_Hunt/* $DEPLOYPATH/ || /bin/cp -R dist/* $DEPLOYPATH/
+    - echo "=== Feral Pig Hunt Deployment Completed Successfully ==="
