@@ -1,0 +1,1 @@
+import { playChargeSFX } from '../index.tsx'; export function playClassicChargeSFX(mod: number = 1.0) { playChargeSFX(mod); } export default { playClassicChargeSFX };

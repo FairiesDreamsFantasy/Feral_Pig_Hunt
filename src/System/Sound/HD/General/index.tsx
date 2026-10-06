@@ -1,0 +1,1 @@
+export const HDQuality = { highFidelityOscillators: true }; export default HDQuality;

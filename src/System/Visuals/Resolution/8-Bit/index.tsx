@@ -1,0 +1,1 @@
+export const RESOLUTION_8BIT_PROFILES = { scalingWidth: 320, scalingHeight: 240 }; export default RESOLUTION_8BIT_PROFILES;

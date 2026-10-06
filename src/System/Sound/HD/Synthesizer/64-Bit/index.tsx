@@ -1,0 +1,1 @@
+export const HD_64BIT_CONFIG = { modulationIndex: 16.0 }; export default HD_64BIT_CONFIG;

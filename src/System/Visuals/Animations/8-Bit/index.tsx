@@ -1,0 +1,1 @@
+export const ANIMATION_8BIT_PROFILES = { frameLockEnabled: true, frameRateCap: 15 }; export default ANIMATION_8BIT_PROFILES;

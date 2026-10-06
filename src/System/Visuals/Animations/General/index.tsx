@@ -1,0 +1,1 @@
+export const AnimationInfo = { category: 'Animations' }; export default AnimationInfo;

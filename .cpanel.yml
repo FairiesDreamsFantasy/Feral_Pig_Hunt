@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fairiesd/public_html/Arcade/Feral_Pig_Hunt/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH/*
+    - /bin/cp -R Public/Feral_Pig_Hunt/* $DEPLOYPATH/ 2>/dev/null || /bin/cp -R public/Feral_Pig_Hunt/* $DEPLOYPATH/ 2>/dev/null || /bin/cp -R dist/* $DEPLOYPATH/

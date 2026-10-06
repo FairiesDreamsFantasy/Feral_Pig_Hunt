@@ -1,0 +1,1 @@
+import { playTuskScrapeSFX } from '../index.tsx'; export { playTuskScrapeSFX }; export default { playTuskScrapeSFX };

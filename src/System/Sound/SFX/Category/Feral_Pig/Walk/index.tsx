@@ -1,0 +1,1 @@
+import { playWalkSFX } from '../Gallop/index.tsx'; export { playWalkSFX }; export default { playWalkSFX };

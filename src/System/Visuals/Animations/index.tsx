@@ -1,0 +1,12 @@
+export * from './General/index.tsx';
+export * from './8-Bit/index.tsx';
+export * from './16-Bit/index.tsx';
+export * from './32-Bit/index.tsx';
+export * from './64-Bit/index.tsx';
+export * as ThreeD from './3-D/index.tsx';
+export * as TwoD from './2-D/index.tsx';
+export * as Polygons from './Polygons/index.tsx';
+export * as Pixelations from './Pixelations/index.tsx';
+export * as Geometry from './Geometry/index.tsx';
+export * as Color_Palette from './Color_Palette/index.tsx';
+export default { module: 'Animations' };

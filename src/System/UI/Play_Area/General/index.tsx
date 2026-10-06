@@ -1,0 +1,1 @@
+export const PlayAreaGeneral = { canvasWidth: 800, canvasHeight: 600 }; export default PlayAreaGeneral;

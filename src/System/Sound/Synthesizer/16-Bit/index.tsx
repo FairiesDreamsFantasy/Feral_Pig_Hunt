@@ -1,0 +1,1 @@
+export const SYNTH_16BIT_PROFILE = { bitDepth: 16, waveform: 'triangle' as OscillatorType }; export default SYNTH_16BIT_PROFILE;
