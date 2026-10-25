@@ -5,8 +5,8 @@ export interface RegistryNode {
   meta?: Record<string, any>;
 }
 
-export const BUILD_VERSION = "0.5";
-export const BUILD_DATE = "2026-10-06";
+export const BUILD_VERSION = "0.6";
+export const BUILD_DATE = "2026-10-25";
 
 export const MASTER_REGISTRY: Record<string, RegistryNode> = {
   "UI/": { path: "UI/", description: "Root UI element manager", status: "active" },

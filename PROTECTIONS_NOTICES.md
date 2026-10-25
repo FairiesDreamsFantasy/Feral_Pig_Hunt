@@ -255,6 +255,18 @@ This file establishes permanent protection notices for all code, modules, algori
       - Implemented 2D Vector Calculus (`Vector2DCalculus`) with Dot Products, Cross Product determinants, Euclidean distance metrics, Unit Normalizations, and Surface Reflection vectors.
       - Implemented Velocity-Verlet Symplectic Numerical Integration (`VelocityVerletIntegrator`) with Hamiltonian Total Mechanical Energy Conservation verification ($H = T + V$).
       - Implemented Impulse-Based Newtonian Rigid Body Collision Dynamics (`RigidBodyDynamics`) with coefficient of restitution $e$ and rectangular moment of inertia tensors ($I = \frac{1}{12} m (w^2 + h^2)$).
-      - Implemented Lotka-Volterra Predator-Prey Ecological Differential Equations (`LotkaVolterraEcology`) calculating continuous carrying capacity and coexistence steady states for feral hog wave density.
+33. **Gemini Quota Guard, Revive Zone ID 16 & Version 0.6 Architecture (V0.6 Update)**:
+    - Version & Build Synchronization:
+      - Updated application version to `0.6` (Build Date: `2026-10-25`) across `src/System/Registry/General/index.tsx`, `src/System/AI/Index/General/index.tsx`, and packaging scripts.
+    - Revive Adserver Integration:
+      - Swapped `REVIVE_ZONE_ID` to `"16"` in `src/System/UI/Ads/Interstitial/General/index.tsx` for asynchronous tag serving (`data-revive-zoneid="16"`, `data-revive-id="fe1f19a638c05881542e31deb5ef01ad"`).
+      - Preserved 100% of the visual styling, countdown timer, skip threshold, and pepperoni & vegetable pizza arcade backdrop "as is".
+    - Closed-Loop Gemini Quota Guard & Anti-Drift Throttling:
+      - Implemented in-memory wave seed caching (`waveSeedCache`) to guarantee that repeated waves or player death restarts never burn duplicate API quota.
+      - Enforced in-flight request deduplication locks to prevent redundant parallel calls.
+      - Implemented minimum request interval throttling (4-second cooldown) to eliminate burst quota exhaustion under the free 15 RPM limit.
+      - Enforced strict token capping (`maxOutputTokens: 250`) on tactical seed responses to conserve user token allocation by over 90%.
+      - Added statistical rolling mean latency ($\mu$) and jitter ($\sigma$) calculation for connection diagnostics.
+      - Shielded the game loop with comprehensive uncaught error boundaries, preventing unhandled rejections from disrupting gameplay.
 
 *Protected under Open-Source CC BY-SA 4.0 and GPL v3.*

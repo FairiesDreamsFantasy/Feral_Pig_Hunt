@@ -29,7 +29,7 @@ export const AI_SUBSYSTEM_MANIFEST: Record<string, AISubsystemDescriptor> = {
 };
 
 export const AIIndexGeneral = {
-  version: '0.5',
+  version: '0.6',
   subsystemsCount: 2,
   operationalState: 'NOMINAL',
   manifest: AI_SUBSYSTEM_MANIFEST,

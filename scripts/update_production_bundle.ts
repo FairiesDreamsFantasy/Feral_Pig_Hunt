@@ -291,8 +291,8 @@ self.addEventListener('fetch', (event) => {
   fs.writeFileSync(path.join(ROOT, 'public/Feral_Pig_Hunt/Assets/JS/index.html'), SUBDIR_INDEX_HTML('../../'), 'utf8');
 
   console.log('[Production Bundle Builder] Generating ZIP archives...');
-  await createZip(ROOT, path.join(ROOT, 'dist/zips/Feral_Pig_Hunt_Source_V0.5.zip'));
-  await createZip(path.join(ROOT, 'Public/Feral_Pig_Hunt/'), path.join(ROOT, 'dist/zips/Feral_Pig_Hunt_V0.5.zip'));
+  await createZip(ROOT, path.join(ROOT, 'dist/zips/Feral_Pig_Hunt_Source_V0.6.zip'));
+  await createZip(path.join(ROOT, 'Public/Feral_Pig_Hunt/'), path.join(ROOT, 'dist/zips/Feral_Pig_Hunt_V0.6.zip'));
   console.log('[Production Bundle Builder] Production bundle update for Public/Feral_Pig_Hunt/ successfully completed!');
 }
 

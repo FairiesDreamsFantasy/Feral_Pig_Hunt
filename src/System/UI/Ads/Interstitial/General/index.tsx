@@ -5,7 +5,7 @@
 export const INTERSTITIAL_AD_CONFIG = {
   TOTAL_DURATION_SECONDS: 30,
   SKIP_THRESHOLD_SECONDS: 15,
-  REVIVE_ZONE_ID: "13",
+  REVIVE_ZONE_ID: "16",
   REVIVE_ID: "fe1f19a638c05881542e31deb5ef01ad",
   REVIVE_ASYNC_SRC: "//ads.fairiesdreamsfantasy.com/adserver/www/delivery/asyncjs.php",
 };
