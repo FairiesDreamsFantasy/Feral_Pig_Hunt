@@ -1,0 +1,1 @@
+export const SYNTH_32BIT_PROFILE = { bitDepth: 32, waveform: 'sine' as OscillatorType }; export default SYNTH_32BIT_PROFILE;

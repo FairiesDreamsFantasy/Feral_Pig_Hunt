@@ -1,0 +1,1 @@
+export const ResolutionHierarchy = { 'Medium': { width: 800, height: 600, scale: 1.0 } }; export default ResolutionHierarchy;

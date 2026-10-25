@@ -1,0 +1,1 @@
+export const RESOLUTION_64BIT_PROFILES = { scalingWidth: 2560, scalingHeight: 1440 }; export default RESOLUTION_64BIT_PROFILES;

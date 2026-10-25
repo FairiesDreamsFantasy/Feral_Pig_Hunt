@@ -1,0 +1,1 @@
+export const HD_32BIT_CONFIG = { modulationIndex: 8.5 }; export default HD_32BIT_CONFIG;

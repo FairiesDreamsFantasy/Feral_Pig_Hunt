@@ -1,0 +1,1 @@
+import { playSquealSFX } from '../index.tsx'; export function playClassicSquealSFX(mod: number = 1.0) { playSquealSFX(mod); } export default { playClassicSquealSFX };

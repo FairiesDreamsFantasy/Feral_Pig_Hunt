@@ -1,0 +1,1 @@
+export const RESOLUTION_32BIT_PROFILES = { scalingWidth: 1280, scalingHeight: 720 }; export default RESOLUTION_32BIT_PROFILES;

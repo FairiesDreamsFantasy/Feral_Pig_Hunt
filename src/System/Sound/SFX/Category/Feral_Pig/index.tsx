@@ -1,0 +1,10 @@
+export * from './General/index.tsx';
+export * from './Squeal/index.tsx';
+export * from './Snort/index.tsx';
+export * from './Hoof_Clicks/index.tsx';
+export * from './Charge/index.tsx';
+export * from './Explosion/index.tsx';
+export * from './Groan/index.tsx';
+export * from './Ground_Scrape/index.tsx';
+export * from './Gallop/index.tsx';
+export default { category: 'Feral Pig SFX Suite' };

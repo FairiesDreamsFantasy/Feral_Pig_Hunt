@@ -1,0 +1,1 @@
+export const BGMSynthConfig = { arpeggioSpeedMs: 125, waveform: 'triangle' as OscillatorType, baseOctave: 3 }; export default BGMSynthConfig;

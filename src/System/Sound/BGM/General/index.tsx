@@ -1,0 +1,1 @@
+export const ArcadeBGMTrack = { title: 'Ecosystem Defense Theme', bpm: 130 }; export default ArcadeBGMTrack;

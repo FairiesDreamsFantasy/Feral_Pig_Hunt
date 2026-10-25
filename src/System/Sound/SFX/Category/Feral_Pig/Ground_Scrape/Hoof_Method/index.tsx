@@ -1,0 +1,1 @@
+import { playHoofScrapeSFX } from '../index.tsx'; export { playHoofScrapeSFX }; export default { playHoofScrapeSFX };

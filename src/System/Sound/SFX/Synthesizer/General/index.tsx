@@ -1,0 +1,1 @@
+export const SFXSynthParams = { laserFreqStart: 950, laserFreqEnd: 180, laserDuration: 0.09 }; export default SFXSynthParams;

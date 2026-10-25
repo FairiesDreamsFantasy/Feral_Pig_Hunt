@@ -1,0 +1,1 @@
+export const SnortGeneral = { filterCutoff: 450 }; export default SnortGeneral;

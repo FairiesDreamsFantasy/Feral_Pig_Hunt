@@ -1,0 +1,1 @@
+export const SFXCategories = ['Feral_Pig', 'Hunter_Laser', 'Explosion', 'UI']; export default SFXCategories;

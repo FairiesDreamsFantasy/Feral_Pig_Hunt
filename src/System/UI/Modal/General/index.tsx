@@ -1,0 +1,1 @@
+export interface ModalProps { isOpen: boolean; onClose: () => void; } export const ModalGeneral = { backdropColor: 'rgba(0, 0, 0, 0.85)' }; export default ModalGeneral;

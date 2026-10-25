@@ -1,0 +1,1 @@
+export const SquealGeneral = { freqStart: 720, freqEnd: 1100 }; export default SquealGeneral;
