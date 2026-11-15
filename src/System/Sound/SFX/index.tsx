@@ -1,0 +1,1 @@
+export * from './General/index.tsx'; export * from './Synthesizer/index.tsx'; export * from './Category/index.tsx'; export default { module: 'SFX Aggregator' };

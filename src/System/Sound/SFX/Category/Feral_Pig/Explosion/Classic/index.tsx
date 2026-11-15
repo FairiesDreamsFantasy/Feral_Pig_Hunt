@@ -1,0 +1,1 @@
+import { playPigExplosionSFX } from '../index.tsx'; export function playClassicPigExplosionSFX(isLarge: boolean = false) { playPigExplosionSFX(isLarge); } export default { playClassicPigExplosionSFX };

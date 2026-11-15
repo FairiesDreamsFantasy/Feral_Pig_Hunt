@@ -1,0 +1,1 @@
+import { playSnortSFX } from '../index.tsx'; export function playClassicSnortSFX(mod: number = 1.0) { playSnortSFX(mod); } export default { playClassicSnortSFX };

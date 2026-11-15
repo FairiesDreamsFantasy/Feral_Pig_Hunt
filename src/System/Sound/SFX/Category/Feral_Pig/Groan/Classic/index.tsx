@@ -1,0 +1,1 @@
+import { playGroanSFX } from '../index.tsx'; export function playClassicGroanSFX() { playGroanSFX(); } export default { playClassicGroanSFX };

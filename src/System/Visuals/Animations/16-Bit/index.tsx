@@ -1,0 +1,1 @@
+export const ANIMATION_16BIT_PROFILES = { frameLockEnabled: true, frameRateCap: 30 }; export default ANIMATION_16BIT_PROFILES;

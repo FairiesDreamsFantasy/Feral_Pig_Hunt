@@ -1,0 +1,8 @@
+{
+  "name": "Feral Pig Hunt",
+  "description": "Fixed-shooter arcade game where a robotic hunter defends the ecosystem from invading feral hogs inspired by Galaga and Galaxian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

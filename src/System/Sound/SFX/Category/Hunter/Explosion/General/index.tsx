@@ -1,0 +1,1 @@
+export const HUNTER_EXPLOSION_CONFIG = { baseFrequency: 160, decaySpeed: 0.85, noiseVolume: 0.45, synthVolume: 0.35 }; export default HUNTER_EXPLOSION_CONFIG;

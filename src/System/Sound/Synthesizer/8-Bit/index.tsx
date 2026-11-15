@@ -1,0 +1,1 @@
+export const SYNTH_8BIT_PROFILE = { bitDepth: 8, waveform: 'square' as OscillatorType }; export default SYNTH_8BIT_PROFILE;

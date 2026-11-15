@@ -1,0 +1,1 @@
+export const ExternalAIGeneral = { provider: 'Google Gemini', timeoutMs: 8000 }; export default ExternalAIGeneral;

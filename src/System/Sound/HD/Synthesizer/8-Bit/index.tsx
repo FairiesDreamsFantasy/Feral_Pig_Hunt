@@ -1,0 +1,1 @@
+export const HD_8BIT_CONFIG = { modulationIndex: 1.5 }; export default HD_8BIT_CONFIG;

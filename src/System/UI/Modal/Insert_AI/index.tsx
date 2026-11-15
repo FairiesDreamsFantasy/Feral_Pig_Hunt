@@ -1,0 +1,1 @@
+export * from './General/index.tsx'; export * from './Gemini/index.tsx'; export default { modal: 'Insert AI Manager' };

@@ -1,0 +1,1 @@
+export const RESOLUTION_16BIT_PROFILES = { scalingWidth: 640, scalingHeight: 480 }; export default RESOLUTION_16BIT_PROFILES;

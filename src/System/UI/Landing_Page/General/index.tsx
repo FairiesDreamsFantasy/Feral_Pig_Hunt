@@ -1,0 +1,1 @@
+export const LandingPageGeneral = { version: '1.0.0', license: 'CC By-SA 4.0 - Open-Source - GPL V3' }; export default LandingPageGeneral;

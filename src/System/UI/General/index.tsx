@@ -1,0 +1,1 @@
+export const UIGeneralInfo = { name: 'User Interface Hierarchy', status: 'active' }; export default UIGeneralInfo;

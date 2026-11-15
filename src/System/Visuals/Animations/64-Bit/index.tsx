@@ -1,0 +1,1 @@
+export const ANIMATION_64BIT_PROFILES = { frameLockEnabled: false, frameRateCap: 120 }; export default ANIMATION_64BIT_PROFILES;

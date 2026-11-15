@@ -1,0 +1,1 @@
+import { playTeethClickSFX } from '../Groan/index.tsx'; export { playTeethClickSFX }; export default { playTeethClickSFX };
